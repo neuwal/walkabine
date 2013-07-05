@@ -1,42 +1,46 @@
 [
     {
-        "id": 1,
         "questionText": "This is a sample question?",
         "answers": [
             {
                 "id": 1,
-                "party": "ppoe",
+                "partyId": "pirat",
+                "party": "PIRAT",
                 "text": "No, we are more awesome!"
             },
             {
                 "id": 2,
-                "party": "spoe",
+                "partyId": "spoe",
+                "party": "SPÖ",
                 "text": "No, we are more awesome!"
             },
             {
                 "id": 3,
-                "party": "bzoe",
+                "partyId": "bzoe",
+                "party": "BZÖ",
                 "text": "No, we are more awesome!"
             }
         ]
     },
     {
-        "id": 2,
         "questionText": "Second sample question?",
         "answers": [
             {
                 "id": 1,
-                "party": "ppoe",
+                "partyId": "pirat",
+                "party": "PIRAT",
                 "text": "No, we are more awesome!"
             },
             {
                 "id": 2,
-                "party": "spoe",
+                "partyId": "spoe",
+                "party": "SPÖ",
                 "text": "No, we are more awesome!"
             },
             {
                 "id": 3,
-                "party": "bzoe",
+                "partyId": "bzoe",
+                "party": "BZÖ",
                 "text": "No, we are more awesome!"
             }
         ]

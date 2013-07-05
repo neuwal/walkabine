@@ -15,19 +15,7 @@
 
 include_once('functions.inc.php');
 
-if (isset($_POST['submit']) && $_POST['submit'] === 'submit') {
-    try {
-        printResults();
-    } catch(Exception $e) {
-        echo 'Exception' . $e->getMessage();
-    }
-} else {
-    try {
-        printForm();
-    } catch(Exception $e) {
-        echo 'Exception' . $e->getMessage();
-    }
-}
+printContent();
 
 ?>
 
