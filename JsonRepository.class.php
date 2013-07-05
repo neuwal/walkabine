@@ -9,11 +9,14 @@ class JsonRepository {
 
     /**
      * @param $jsonFilePath
+     * @param bool $scrambleAnswers
      */
-    public function __Construct($jsonFilePath) {
+    public function __Construct($jsonFilePath, $scrambleAnswers = true) {
         $this->readCollectionFromFile($jsonFilePath);
 
-        $this->scrambleAnswers();
+        if ($scrambleAnswers) {
+            $this->scrambleAnswers();
+        }
     }
 
     /**
