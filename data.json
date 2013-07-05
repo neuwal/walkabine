@@ -1,0 +1,36 @@
+[
+    {
+        "questionText": "This is a sample question?",
+        "answers": [
+            {
+                "party": "ppoe",
+                "text": "No, we are more awesome! 1(ppoe)"
+            },
+            {
+                "party": "spoe",
+                "text": "No, we are more awesome! 1(spoe)"
+            },
+            {
+                "party": "bzoe",
+                "text": "No, we are more awesome! 1(bzoe)"
+            }
+        ]
+    },
+    {
+        "questionText": "Second sample question?",
+        "answers": [
+            {
+                "party": "ppoe",
+                "text": "No, we are more awesome! 2(ppoe)"
+            },
+            {
+                "party": "spoe",
+                "text": "No, we are more awesome! 2(spoe)"
+            },
+            {
+                "party": "bzoe",
+                "text": "No, we are more awesome! 2(bzoe)"
+            }
+        ]
+    }
+]
