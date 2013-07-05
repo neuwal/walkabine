@@ -60,6 +60,9 @@ function savePostToSession($collection, $step) {
 function printForm($repository, $step) {
     $collection = $repository->collection;
     $question = $collection[$step];
+
+    shuffle($question->answers);
+
     $numberOfSteps = count($collection);
 ?>
 

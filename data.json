@@ -3,19 +3,16 @@
         "questionText": "This is a sample question?",
         "answers": [
             {
-                "id": 1,
                 "partyId": "pirat",
                 "party": "PIRAT",
                 "text": "No, we are more awesome!"
             },
             {
-                "id": 2,
                 "partyId": "spoe",
                 "party": "SPÖ",
                 "text": "No, we are more awesome!"
             },
             {
-                "id": 3,
                 "partyId": "bzoe",
                 "party": "BZÖ",
                 "text": "No, we are more awesome!"
@@ -26,19 +23,16 @@
         "questionText": "Second sample question?",
         "answers": [
             {
-                "id": 1,
                 "partyId": "pirat",
                 "party": "PIRAT",
                 "text": "No, we are more awesome!"
             },
             {
-                "id": 2,
                 "partyId": "spoe",
                 "party": "SPÖ",
                 "text": "No, we are more awesome!"
             },
             {
-                "id": 3,
                 "partyId": "bzoe",
                 "party": "BZÖ",
                 "text": "No, we are more awesome!"
