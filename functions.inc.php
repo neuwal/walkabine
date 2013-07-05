@@ -4,16 +4,24 @@ include_once('JsonRepository.class.php');
 
 function printContent() {
     try {
+        session_start();
+
         $step = 0;
         if (isset($_POST['step'])) {
-            $step = intval($_POST['step'] + 1);
+            $step = intval($_POST['step']);
+        } else {
+            // Unset all of the session variables.
+            $_SESSION = array();
         }
 
         $repository = new JsonRepository('data.json');
-        savePostToSession($repository->collection, $step);
+
+        if ($step > 0 && isset($_POST['submit']) && $_POST['submit'] === 'submit') {
+            savePostToSession($repository->collection, $step);
+        }
 
         if ($step >= count($repository->collection)) {
-            printResults();
+            printResults($step);
         } else {
             printForm($repository, $step);
         }
@@ -28,8 +36,6 @@ function printContent() {
  * @throws Exception
  */
 function savePostToSession($collection, $step) {
-    session_start();
-    if ($step > 0) {
         $step -= 1;
         $name = 'q-' . ($step) . '_priority';
         if (!isset($_POST[$name])) {
@@ -45,7 +51,6 @@ function savePostToSession($collection, $step) {
             }
             $_SESSION[$name] = $_POST[$name];
         }
-    }
 }
 
 /**
@@ -72,6 +77,12 @@ function printForm($repository, $step) {
                 name="q-<?php echo $step; ?>_<?php echo $answer->partyId; ?>"
                 type="radio"
                 value="like"
+                <?php
+                    $name = 'q-' . $step . '_' . $answer->partyId;
+                    if (isset($_SESSION[$name]) && $_SESSION[$name] === 'like') {
+                        echo 'checked="checked"';
+                    }
+                ?>
                 required="required" />
             <label for="q-<?php echo $step; ?>_<?php echo $answer->partyId; ?>_unlike">unlike</label>
             <input
@@ -79,6 +90,12 @@ function printForm($repository, $step) {
                 name="q-<?php echo $step; ?>_<?php echo $answer->partyId; ?>"
                 type="radio"
                 value="unlike"
+                <?php
+                if (isset($_SESSION[$name]) && $_SESSION[$name] === 'unlike') {
+                    echo 'checked="checked"';
+                }
+                unset($name);
+                ?>
                 required="required" />
         </li>
         <?php } ?>
@@ -91,6 +108,12 @@ function printForm($repository, $step) {
                 name="q-<?php echo $step; ?>_priority"
                 type="radio"
                 value="low"
+                <?php
+                $name = 'q-' . $step . '_priority';
+                if (isset($_SESSION[$name]) && $_SESSION[$name] === 'low') {
+                    echo 'checked="checked"';
+                }
+                ?>
                 required="required" />
             <label for="q-<?php echo $step; ?>_priority_medium">Mittel</label>
             <input
@@ -98,7 +121,11 @@ function printForm($repository, $step) {
                 name="q-<?php echo $step; ?>_priority"
                 type="radio"
                 value="medium"
-                checked="checked"
+                <?php
+                if ((isset($_SESSION[$name]) && $_SESSION[$name] === 'medium') || !isset($_SESSION[$name])) {
+                    echo 'checked="checked"';
+                }
+                ?>
                 required="required" />
             <label for="q-<?php echo $step; ?>_priority_high">Hoch</label>
             <input
@@ -106,14 +133,26 @@ function printForm($repository, $step) {
                 name="q-<?php echo $step; ?>_priority"
                 type="radio"
                 value="high"
+                <?php
+                if (isset($_SESSION[$name]) && $_SESSION[$name] === 'high') {
+                    echo 'checked="checked"';
+                }
+                ?>
                 required="required" />
         </li>
     </ul>
 
-    <input id="step" name="step" type="hidden" value="<?php echo $step; ?>" />
+    <input id="step" name="step" type="hidden" value="<?php echo $step + 1; ?>" />
 
     <input id="submit" name="submit" type="submit" value="submit" />
 
+</form>
+<form action="index.php" method="post">
+    <input id="step" name="step" type="hidden" value="<?php echo $step - 1; ?>" />
+
+    <?php if ($step > 0) { ?>
+        <input id="back" name="back" type="submit" value="back" />
+    <?php } ?>
 </form>
 
 <?php
@@ -122,7 +161,7 @@ function printForm($repository, $step) {
 /**
  *
  */
-function printResults() {
+function printResults($step) {
     $results = readResults();
 
     arsort($results);
@@ -134,8 +173,18 @@ function printResults() {
     <?php  } ?>
 </ol>
 
+<form action="index.php" method="post">
+    <input id="step" name="step" type="hidden" value="<?php echo $step - 1; ?>" />
+
+    <?php if ($step > 0) { ?>
+        <input id="back" name="back" type="submit" value="back" />
+    <?php } ?>
+</form>
+
 
 <?php
+
+
 }
 
 /**
