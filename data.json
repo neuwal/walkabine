@@ -1,41 +1,1350 @@
 [
     {
-        "questionText": "This is a sample question?",
+        "questionText": "Die Einführung eines Mindestlohns...",
         "answers": [
             {
+                "partyId": "cpo",
+                "party": "CPÖ",
+                "text": "Jede Vollzeitstelle muss über Mindestsicherungsgrenze liegen. Senkung der Lohnnebenkosten = weniger nötige ausgleichende Sozialleistungen.",
+                "prio": 3
+            },
+            {
+                "partyId": "euaus",
+                "party": "EU Austrittspartei",
+                "text": "Klingt gut, würde aber zu noch mehr Arbeitslosigkeit führen. Gegen ein Lohndumping durch Ost-EU-Bürger. Für angemessene  Löhne.",
+                "prio": 1
+            },
+            {
+                "partyId": "kpo",
+                "party": "KPÖ",
+                "text": "Wir fordern einen flächendeckenden gesetzlichen Mindestlohn in der Höhe von 10 € pro Stunde. ",
+                "prio": 3
+            },
+            {
+                "partyId": "mp",
+                "party": "Männerpartei",
+                "text": "ist sinnvoll, weil das Recht auf Leben auch das Recht auf ein Existenzminimum bedingt.",
+                "prio": 2
+            },
+            {
+                "partyId": "sga",
+                "party": "Monarchisten",
+                "text": "… ist leider in Zeiten der Globalisierung derzeit nicht umsetzbar.",
+                "prio": 1
+            },
+            {
+                "partyId": "neos",
+                "party": "NEOS",
+                "text": "Den gibt es bereits.",
+                "prio": 13
+            },
+            {
+                "partyId": "neue",
+                "party": "Die Neue Partei",
+                "text": "Für die Einführung eines Mindestlohns von 1500€ brutto.",
+                "prio": 3
+            },
+            {
                 "partyId": "pirat",
-                "party": "PIRAT",
-                "text": "No, we are more awesome!"
+                "party": "Piratenpartei",
+                "text": "befürworten wir absolut! Ein wichtiger Zwischenschritt auf dem Weg zum bedingungslosen Grundeinkommen.",
+                "prio": 2
             },
             {
-                "partyId": "spoe",
-                "party": "SPÖ",
-                "text": "No, we are more awesome!"
+                "partyId": "slp",
+                "party": "SLP",
+                "text": "Wir fordern einen Mindestlohn von 1700.- brutto. Um diesen zu erreichen müssen die Gewerkschaften einen wirklichen Kampf führen!",
+                "prio": 3
             },
             {
-                "partyId": "bzoe",
-                "party": "BZÖ",
-                "text": "No, we are more awesome!"
+                "partyId": "so",
+                "party": "Soziales Österreich",
+                "text": "Diese ist sozial gerecht und ökonomisch notwendig. Systemischer Umbau der Volkswirtschaft. \"QualitativesWachstum\" mit höherer Wertschöpfung.",
+                "prio": 3
+            },
+            {
+                "partyId": "wandl",
+                "party": "Der Wandel",
+                "text": "ist essentiell, damit man von jeder Vollzeitarbeit auch Leben kann. Ohne Mindestlohn sinken Löhne generell weiter.",
+                "prio": 2
             }
         ]
     },
     {
-        "questionText": "Second sample question?",
+        "questionText": "Was sind Lösungen zur Bekämpfung der Jugendarbeitslosigkeit?",
         "answers": [
             {
+                "partyId": "cpo",
+                "party": "CPÖ",
+                "text": "Aufwertung der Lehrberufe und der Facharbeit durch einen Bildungsansatz, der unterschiedliche Begabungen fördert (statt Gesamtschulen).",
+                "prio": 2
+            },
+            {
+                "partyId": "euaus",
+                "party": "EU Austrittspartei",
+                "text": "Mehr Arbeitsplätze durch Produktion im Inland, statt Auslagerungen in Billiglohnländer. Das ist mit einem EU-Austritt Österreichs möglich.",
+                "prio": 2
+            },
+            {
+                "partyId": "kpo",
+                "party": "KPÖ",
+                "text": "Arbeitszeitverkürzung bei vollem Lohnausgleich sorgt für eine bessere Verteilung der Lohnarbeit zwischen Überarbeiteten und Arbeitssuchenden.",
+                "prio": 3
+            },
+            {
+                "partyId": "mp",
+                "party": "Männerpartei",
+                "text": "Das duale Ausbildungssystem ist sinnvoll. Die Besteuerung der Arbeit sollte insgesamt niedriger werden, damit Beschäftigung attraktiver wird.",
+                "prio": 2
+            },
+            {
+                "partyId": "sga",
+                "party": "Monarchisten",
+                "text": "Hürden beim Weg in die Selbständigkeit beseitigen, Kämmereiwesen entrümpeln, Jobs in der Landwirtschaft für die Post-Erdöl-Ära fördern.",
+                "prio": 3
+            },
+            {
+                "partyId": "neos",
+                "party": "NEOS",
+                "text": "Bildung, möglichst perfekte Arbeitsbedingungen für Unternehmen und Pioniergeist!",
+                "prio": 3
+            },
+            {
+                "partyId": "neue",
+                "party": "Die Neue Partei",
+                "text": "Senkung des Pensionsantrittsalters auf 60 Jahre für Männer und Frauen",
+                "prio": 3
+            },
+            {
                 "partyId": "pirat",
-                "party": "PIRAT",
-                "text": "No, we are more awesome!"
+                "party": "Piratenpartei",
+                "text": "Die Ausbildungsgarantie hilft schon sehr – gerade Junge müssen aber gegen Ausbeutung in Praktika oder Scheinselbstständigkeit geschützt werden.",
+                "prio": 1
             },
             {
-                "partyId": "spoe",
-                "party": "SPÖ",
-                "text": "No, we are more awesome!"
+                "partyId": "slp",
+                "party": "SLP",
+                "text": "Arbeitszeitverkürzung bei vollem Lohn schafft Jobs. Schluss mit AMS-Schikanen - her mit guten öffentliche Lehrwerkstätten und Mitbestimmung der Lehrlinge.",
+                "prio": 3
             },
             {
-                "partyId": "bzoe",
-                "party": "BZÖ",
-                "text": "No, we are more awesome!"
+                "partyId": "so",
+                "party": "Soziales Österreich",
+                "text": "Die effektivste Form gegen die Jugendarbeitslosigkeit ist die Herstellung der Vollbeschäftigung und Bildungsreform für höhere zukünftige Anforderungen.",
+                "prio": 3
+            },
+            {
+                "partyId": "wandl",
+                "party": "Der Wandel",
+                "text": "Kleine und mittlere Unternehmen bei den Lohnnebenkosten um 25% entlasten und Jugendlichen eine Ausbildungsgarantie geben",
+                "prio": 2
+            }
+        ]
+    },
+    {
+        "questionText": "Unternehmertum und Start-ups fördern? Ideen?",
+        "answers": [
+            {
+                "partyId": "cpo",
+                "party": "CPÖ",
+                "text": "Kleinunternehmen sollten geringeren Auflagen unterliegen als großen, da sie Strukturkosten schlechter ausgleichen können. ",
+                "prio": 2
+            },
+            {
+                "partyId": "euaus",
+                "party": "EU Austrittspartei",
+                "text": "Einfachere Gesetze, die Zwangsmitgliedschaft bei der Wirtschaftskammer abschaffen.",
+                "prio": 2
+            },
+            {
+                "partyId": "kpo",
+                "party": "KPÖ",
+                "text": "Ein öffentlicher Beschäftigungssektor ermöglicht auch die Förderung von Genossenschaften, Alternativbetrieben, u.a. Formen solidarischer Ökonomie",
+                "prio": 2
+            },
+            {
+                "partyId": "mp",
+                "party": "Männerpartei",
+                "text": "Wer mehr unternehmerische Initiative will, sollte nicht mehr staatliche Einmischung anstreben, sondern weniger.",
+                "prio": 2
+            },
+            {
+                "partyId": "sga",
+                "party": "Monarchisten",
+                "text": "Vorhandene Finanzmittel direkt in Jungunternehmen statt in aufwändige und sinnlose Imagekampagnen investieren.",
+                "prio": 3
+            },
+            {
+                "partyId": "neos",
+                "party": "NEOS",
+                "text": "Nicht behindern wäre ein guter Anfang. Es geht weniger um Förderungen als um Rahmenbedingungen. Unternehmergeist ist Zukunftssicherung.",
+                "prio": 3
+            },
+            {
+                "partyId": "neue",
+                "party": "Die Neue Partei",
+                "text": "Förderung von alternativen (regionalen) Finanzierungsmodellen und der Gemeinwohlwirtschaft",
+                "prio": 3
+            },
+            {
+                "partyId": "pirat",
+                "party": "Piratenpartei",
+                "text": "Selbstständige entlasten, Finanzierung ermöglichen, BGE zur Freisetzung von Unternehmergeist, modernes Patentwesen statt Patenttrolling!",
+                "prio": 3
+            },
+            {
+                "partyId": "slp",
+                "party": "SLP",
+                "text": "Die Leitbetriebe halten über 8 Milliarden zurück - darauf 50% Steuer: das schafft sichere und ordentliche Jobs statt Scheinselbstständigkeit und Prekariate.",
+                "prio": 3
+            },
+            {
+                "partyId": "so",
+                "party": "Soziales Österreich",
+                "text": "Förderungen vom Gieskannenprinzip konzentrieren auf die gesamte Wertschöpfungskette. Von Innovation bis zum Vertrieb soll das Entstehen nachhaltiger Produkte möglich werden.",
+                "prio": 3
+            },
+            {
+                "partyId": "wandl",
+                "party": "Der Wandel",
+                "text": "Kleine und mittlere Unternehmen bei den Lohnnebenkosten um 25% entlasten und Jugendlichen eine Ausbildungsgarantie geben",
+                "prio": 2
+            }
+        ]
+    },
+    {
+        "questionText": "Ist die Einführung von Studiengebühren der einzige/richtige Weg um die Universitäten zu finanzieren?",
+        "answers": [
+            {
+                "partyId": "cpo",
+                "party": "CPÖ",
+                "text": "Studiengebühren sind eine versteckte Familienbesteuerung. Wir treten dafür ein, den Zugang zur Uni durch Leistungskriterien zu filtern.",
+                "prio": 2
+            },
+            {
+                "partyId": "euaus",
+                "party": "EU Austrittspartei",
+                "text": "Vorrang für österreichische Studenten. Kein Gratisstudium mehr für EU-Studenten in Österreich.",
+                "prio": 3
+            },
+            {
+                "partyId": "kpo",
+                "party": "KPÖ",
+                "text": "Nein, es ist ein völlig falscher Weg. Die Universitäten müssen allen frei zugänglich sein und öffentlich ausfinanziert werden",
+                "prio": 3
+            },
+            {
+                "partyId": "mp",
+                "party": "Männerpartei",
+                "text": "Wenn es mehr Studenten gibt, braucht man entweder mehr Geld oder die Ausbildung wird schlechter. Die Regeln für EUStudenten sind ein Irrweg.",
+                "prio": 2
+            },
+            {
+                "partyId": "sga",
+                "party": "Monarchisten",
+                "text": "Nein. Zumindest österreichische Studienberechtigte sollen vom Staat Gutscheine für ein gebührenfreies Studium erhalten.",
+                "prio": 3
+            },
+            {
+                "partyId": "neos",
+                "party": "NEOS",
+                "text": "Nachgelagerte Studiengebühren helfen den Universtitäten, sind zumutbar und letztlich gerecht.",
+                "prio": 2
+            },
+            {
+                "partyId": "neue",
+                "party": "Die Neue Partei",
+                "text": "Nein. Studiengebühren sind kontraproduktiv.",
+                "prio": 2
+            },
+            {
+                "partyId": "pirat",
+                "party": "Piratenpartei",
+                "text": "Nein. Studiengebühren schaffen soziale Hürden und leisten keinen wesentlichen Beitrag zur Hochschulfinanzierung.",
+                "prio": 2
+            },
+            {
+                "partyId": "slp",
+                "party": "SLP",
+                "text": "Statt Milliarden für die \"Rettung\" der Banken: Kostenlose Kindergärten, Schulen, Universitäten & Erwachsenenbildung, die auch ausgebaut werden müssen!",
+                "prio": 3
+            },
+            {
+                "partyId": "so",
+                "party": "Soziales Österreich",
+                "text": "Nein, Universitäten sollten stärker in die Grundlagenforschung einsteigen und aus öffentlichen und Mitteln der Industrie finanzieret werden",
+                "prio": 3
+            },
+            {
+                "partyId": "wandl",
+                "party": "Der Wandel",
+                "text": "Natürlich nicht, da wir uns als Gesellschaft gemeinsam ein starkes Bildungssystem leisten müssen. Da gehören Universitäten dazu.",
+                "prio": 2
+            }
+        ]
+    },
+    {
+        "questionText": "Das Bildungssystem in Österreich bietet jedem die gleichen Chancen.",
+        "answers": [
+            {
+                "partyId": "cpo",
+                "party": "CPÖ",
+                "text": "Gleiche Chance bieten, aber ohne Nivellierung - wir stehen für ein differenzierendes Bildungsystem, das individuelle Begabungen fördert.",
+                "prio": 3
+            },
+            {
+                "partyId": "euaus",
+                "party": "EU Austrittspartei",
+                "text": "Das wäre schön. Viele Migranten-Kinder können nicht deutsch und können daher dem Unterricht gar nicht folgen. Deutschtests wären sinnvoll.",
+                "prio": 2
+            },
+            {
+                "partyId": "kpo",
+                "party": "KPÖ",
+                "text": "Alle Zahlen zeigen das Gegenteil – das Bildungssystem ist „sozial selektiv“. Unsere Konzepte vom Kindergarten bis zur Hochschule wollen das ändern. ",
+                "prio": 3
+            },
+            {
+                "partyId": "mp",
+                "party": "Männerpartei",
+                "text": "Das stimmt leider nicht. Jedes Kind sollte Zugang zu einer angemessenen Ausbildung haben, aber es sollte auch entsprechend Wahlfreiheit geben.",
+                "prio": 2
+            },
+            {
+                "partyId": "sga",
+                "party": "Monarchisten",
+                "text": "Naja. Ein Weg zu größerer Chancengleichheit wäre eine Ganztagsschule im Rahmen der Pflichtschulzeit, allerdings auf freiwilliger Basis.",
+                "prio": 1
+            },
+            {
+                "partyId": "neos",
+                "party": "NEOS",
+                "text": "Leider nein, obwohl wichtigstes Thema überhaupt. Teueres System - mäßiges Resultat. Das investierte Geld muss bei Schüler_innen ankommen.",
+                "prio": 3
+            },
+            {
+                "partyId": "neue",
+                "party": "Die Neue Partei",
+                "text": "Das Bildungssystem in Österreich kann stark verbessert werden.",
+                "prio": 2
+            },
+            {
+                "partyId": "pirat",
+                "party": "Piratenpartei",
+                "text": "Leider (noch) nicht. Wir wollen individuelle Förderung und Bildung, um wirklich Chancen für alle zu schaffen.",
+                "prio": 3
+            },
+            {
+                "partyId": "slp",
+                "party": "SLP",
+                "text": "Für eine gemeinsame Schule aller 6-18jährigen inklusive Berufsausbildung. Solange Geld in der Bildung fehtl, gibt es keine gleichen Chancen!",
+                "prio": 3
+            },
+            {
+                "partyId": "so",
+                "party": "Soziales Österreich",
+                "text": "Durchgängigkeit vom Kindergarten, gemeinsame Schule der 8 bis 14 Jährigen und erst dann Entscheidung für weiteren Schulweg.",
+                "prio": 3
+            },
+            {
+                "partyId": "wandl",
+                "party": "Der Wandel",
+                "text": "Schön wärs, ist aber nicht so. Und ohne Chancengleichheit driftet unsere Gesellschaft auseinander.",
+                "prio": 2
+            }
+        ]
+    },
+    {
+        "questionText": "Das Speichern persönlicher Daten wie bei der Vorratsdatenspeicherung ist...",
+        "answers": [
+            {
+                "partyId": "cpo",
+                "party": "CPÖ",
+                "text": "Das ist inakzeptabel, weil es eine Schuldvermutung gegenüber allen Bürgern ausdrückt und das Recht auf Privatsphäre auflöst. ",
+                "prio": 3
+            },
+            {
+                "partyId": "euaus",
+                "party": "EU Austrittspartei",
+                "text": "Lehnen wir ab. Die Privatsphäre der Bürger muß gewahrt werden. Die EU-Überwachung ist ein weiterer Grund für den EU-Austritt Österreichs.",
+                "prio": 3
+            },
+            {
+                "partyId": "kpo",
+                "party": "KPÖ",
+                "text": "…der bisher massivste Eingriff in Grundrechte und de facto der Übergang zu Präventivüberwachung und Schuldverdacht.",
+                "prio": 3
+            },
+            {
+                "partyId": "mp",
+                "party": "Männerpartei",
+                "text": "unmoralisch und grundrechtswidrig.",
+                "prio": 2
+            },
+            {
+                "partyId": "sga",
+                "party": "Monarchisten",
+                "text": "Problematisch: Die Einmischung vonseiten des Staates und der EU in das Leben der Bürger ist auf ein absolut notwendiges Minimum zu begrenzen.",
+                "prio": 2
+            },
+            {
+                "partyId": "neos",
+                "party": "NEOS",
+                "text": "verletzt das Recht auf Privatsphäre empfindlich. Unangemessen!",
+                "prio": 2
+            },
+            {
+                "partyId": "neue",
+                "party": "Die Neue Partei",
+                "text": "unakzeptabel. Datenweitergabe nur mit gerichtlichem Beschluss",
+                "prio": 2
+            },
+            {
+                "partyId": "pirat",
+                "party": "Piratenpartei",
+                "text": "ein nicht rechtfertigbarer Eingriff in Grund- + Freiheitsrechte — und bringt keine Verbrechensprävention. Ursachen bekämpfen, nicht Symptome!",
+                "prio": 3
+            },
+            {
+                "partyId": "slp",
+                "party": "SLP",
+                "text": "...der Versuch der Herrschenden, sich vor Protesten und organisiertem Widerstand zu schützen. Stattdessen: Offenlegung der (geheimen) Firmenkonten!",
+                "prio": 3
+            },
+            {
+                "partyId": "so",
+                "party": "Soziales Österreich",
+                "text": "Thema wird überbewertet.",
+                "prio": 1
+            },
+            {
+                "partyId": "wandl",
+                "party": "Der Wandel",
+                "text": "ein Generalverdacht gegen die Bevölkerung und deswegen strikt abzulehnen.2",
+                "prio": 2
+            }
+        ]
+    },
+    {
+        "questionText": "Sollen Instrumente der direkten Demokratie ausgebaut werden? Wie?",
+        "answers": [
+            {
+                "partyId": "cpo",
+                "party": "CPÖ",
+                "text": "Ja. Durch Erleichterung der Einreichung von Volksbefragungen und verpflichtende Umsetzung, und ein Wahlrecht, das jede Stimme gleich wertet.",
+                "prio": 3
+            },
+            {
+                "partyId": "euaus",
+                "party": "EU Austrittspartei",
+                "text": "Ja. 1% der Wahlberechtigten sollen eine Volksabstimmung erzwingen können. Das wären derzeit ca. 63000 Unterstützungserklärungen.",
+                "prio": 3
+            },
+            {
+                "partyId": "kpo",
+                "party": "KPÖ",
+                "text": "Wichtig ist die Entwicklung einer partizipativen Demokratie, auf kommunaler Ebene durch Versammlungen in Stadtteilen und partizipative Budgetgestaltung.",
+                "prio": 2
+            },
+            {
+                "partyId": "mp",
+                "party": "Männerpartei",
+                "text": "Ja. Das Volk soll selbst eine Volksabstimmung zu einem Gesetz einleiten können.",
+                "prio": 2
+            },
+            {
+                "partyId": "sga",
+                "party": "Monarchisten",
+                "text": "Indem ein parteiunabhängiges Staatsoberhaupt (ein Monarch) die Möglichkeit erhält, am Parlament vorbei verbindliche Referenden anzuordnen.",
+                "prio": 3
+            },
+            {
+                "partyId": "neos",
+                "party": "NEOS",
+                "text": "Ja. Bürger_innenforen, Online-Partizipation, Senkung der Hürden für Volksbegehren. Wichtig auch Transparenz und Persönlichkeitswahlrecht.",
+                "prio": 3
+            },
+            {
+                "partyId": "neue",
+                "party": "Die Neue Partei",
+                "text": "Ausbau der Direkten Demokratie nach Schweizer Vorbild.",
+                "prio": 3
+            },
+            {
+                "partyId": "pirat",
+                "party": "Piratenpartei",
+                "text": "Ja! Bürgerinnen und Bürger sollen selbst Gesetze vorschlagen können sowie mit genügend Unterschriften Volksabstimmungen erzwingen können.",
+                "prio": 3
+            },
+            {
+                "partyId": "slp",
+                "party": "SLP",
+                "text": "Demokratie auch in Schulen, Unis und Betrieben. Wahl- und Abwählbarkeit von Vorgesetzten und Durchschnittslohn für alle PolitikerInnen.",
+                "prio": 3
+            },
+            {
+                "partyId": "so",
+                "party": "Soziales Österreich",
+                "text": "Ja, Politik sollte wichtige Entscheidungen nicht abwälzen. Wir treten stark für den Zugang von Bürgerinitiativen direkt in das Parlament ein. ",
+                "prio": 2
+            },
+            {
+                "partyId": "wandl",
+                "party": "Der Wandel",
+                "text": "Es soll nicht nur um einfach Ja/Nein abstimmen gehen. Menschen sollen in Meinungsbildung einbezogen werden. ZB Verfassungskonvent",
+                "prio": 2
+            }
+        ]
+    },
+    {
+        "questionText": "Was verstehen sie unter erneuerbarer Energie? Wo soll Österreich investieren?",
+        "answers": [
+            {
+                "partyId": "cpo",
+                "party": "CPÖ",
+                "text": "In nachwachsende Rohstoffe, Wind, Wasser und Solar; das bietet die Schöpfung zur Energiegewinnung, ohne an ihr Raubbau zu betreiben.",
+                "prio": 3
+            },
+            {
+                "partyId": "euaus",
+                "party": "EU Austrittspartei",
+                "text": "Erneuerbare Energie: Wasserkraft, Sonnenenergie, Windkraft, Holz. Österreich sollte in Wärmedämmung investieren. Ausstieg aus EURATOM.",
+                "prio": 2
+            },
+            {
+                "partyId": "kpo",
+                "party": "KPÖ",
+                "text": "Investitionen in z.B. neue Modelle kleinräumiger Anlagen in kommunalem, gesellschaftlichem Eigentum und Maßnahmen zum Energiesparen.",
+                "prio": 2
+            },
+            {
+                "partyId": "mp",
+                "party": "Männerpartei",
+                "text": "Erneuerbare Energiequellen werden von der Sonne laufend neu aufgefüllt, der Staat sollte vor allem die Forschung finanzieren.",
+                "prio": 2
+            },
+            {
+                "partyId": "sga",
+                "party": "Monarchisten",
+                "text": "Wind, Wasser, Photovoltaik gehört gefördert. Primär muß aber der Energieverbrauch verringert werden.",
+                "prio": 3
+            },
+            {
+                "partyId": "neos",
+                "party": "NEOS",
+                "text": "Österreich ist diesbezüglich mit Ressourcen gesegnet. Investitionen in allen Bereichen sind angesagt.",
+                "prio": 2
+            },
+            {
+                "partyId": "neue",
+                "party": "Die Neue Partei",
+                "text": "Solar-, Wind-, Wasserkraft weiter ausbauen und über Energiesparmodelle nachdenken.",
+                "prio": 2
+            },
+            {
+                "partyId": "pirat",
+                "party": "Piratenpartei",
+                "text": "Dank Wasserkraft ist die Ausgangslage gut, langfristig müssen wir aber stark in Wind-/Solarenergie investieren. Deutschland ist hier Vorbild.",
+                "prio": 1
+            },
+            {
+                "partyId": "slp",
+                "party": "SLP",
+                "text": "...ist nötig, aber der Kapitalismus hemmt die Forschung, weil die Profite im Zentrum stehen und nicht die Bedürfnisse nach einer sauberen Umwelt!",
+                "prio": 3
+            },
+            {
+                "partyId": "so",
+                "party": "Soziales Österreich",
+                "text": "Jede Energieform die in Umweltbilanz als erneuerbar bezeichnet werden kann. Hier treten wir auf ein regionalisiertes komplementäres Energiesystem ein.",
+                "prio": 3
+            },
+            {
+                "partyId": "wandl",
+                "party": "Der Wandel",
+                "text": "Erneuerbare Energien produzieren Energie ohne Zufuhr fossiler Brennstoffe & CO² Ausstoß. Alle wissen: Energiewende ist absolut notwendig.",
+                "prio": 2
+            }
+        ]
+    },
+    {
+        "questionText": "Liegt die Zukunft Österreichs in der EU? Wie sieht sie aus?",
+        "answers": [
+            {
+                "partyId": "cpo",
+                "party": "CPÖ",
+                "text": "Gegenwärtig fährt sie einen Kurs des Zentralismus. Wir bekennen uns zur Subsidiarität - wenn nötig außerhalb der EU. ",
+                "prio": 2
+            },
+            {
+                "partyId": "euaus",
+                "party": "EU Austrittspartei",
+                "text": "Wir sind für den EU-Austritt Österreich, da dies zu mehr Wohlstand führt. Selbstbestimmung Österreichs, statt Fremdherrschaft durch die EU.",
+                "prio": 3
+            },
+            {
+                "partyId": "kpo",
+                "party": "KPÖ",
+                "text": "Wir streiten für eine solidarische Gesellschaft in Österreich und Europa. Zur Zeit ist ein EU-Austritt kein Thema, aber auch kein Tabu.",
+                "prio": 2
+            },
+            {
+                "partyId": "mp",
+                "party": "Männerpartei",
+                "text": "Die Zukunft Österreich liegt in einem demokratischen Europa. Wenn die EU zu echter Demokratie fähig ist, wird es auch in Zukunft eine EU geben.",
+                "prio": 2
+            },
+            {
+                "partyId": "sga",
+                "party": "Monarchisten",
+                "text": "Die Zukunft liegt in einem wiedervereinigten  Mitteleuropa entlang historischer gewachsener Grenzen. Ohne dieses hat die EU keine Chance.",
+                "prio": 3
+            },
+            {
+                "partyId": "neos",
+                "party": "NEOS",
+                "text": "Ja. Aber wir müssen das erfolgreichste Friedensprojekt der Geschichte unseres Kontinents von Grund auf erneuern und demokratisieren.",
+                "prio": 3
+            },
+            {
+                "partyId": "neue",
+                "party": "Die Neue Partei",
+                "text": "Österreich ist und soll Teil der EU bleiben",
+                "prio": 2
+            },
+            {
+                "partyId": "pirat",
+                "party": "Piratenpartei",
+                "text": "Ja. Kleine Staaten können international nur gemeinsam etwas bewirken. Wir wollen ein demokratisches, föderales, gemeinsames Europa.",
+                "prio": 3
+            },
+            {
+                "partyId": "slp",
+                "party": "SLP",
+                "text": "Die Zukunft liegt in den vereinigten sozialistischen Staaten von Europa. Nein zur EU, Nein zu Nationalismus – Ja zu internationaler Solidarität!",
+                "prio": 3
+            },
+            {
+                "partyId": "so",
+                "party": "Soziales Österreich",
+                "text": "Ja, aber eine EU mit nur Zentralisierung wo unbedingt nötig und Regionalisierung (Dezentralisierung) wo immer möglich.",
+                "prio": 3
+            },
+            {
+                "partyId": "wandl",
+                "party": "Der Wandel",
+                "text": "In letzten Jahren ist die EU leider nur auf Wirtschaftswachstum reduziert worden. Der Europäische Gedanke muss wieder in den Vordergrund.",
+                "prio": 2
+            }
+        ]
+    },
+    {
+        "questionText": "Krisenländer sollen zu ihrer eigenen Währung zurückkehren, um wettbewerbsfähig zu bleiben.",
+        "answers": [
+            {
+                "partyId": "cpo",
+                "party": "CPÖ",
+                "text": "Ja. Der Euro ist eine Fehlkonstruktion, der die traditionellen Weichwährungsländer überfordert und so auch den Hartwährungsländern schadet.",
+                "prio": 2
+            },
+            {
+                "partyId": "euaus",
+                "party": "EU Austrittspartei",
+                "text": "Das gilt für alle Länder. Nur mit einer eigenen Währung kann man eine eigenständige Wirtschafts- und Währungspolitik machen.",
+                "prio": 3
+            },
+            {
+                "partyId": "kpo",
+                "party": "KPÖ",
+                "text": "Es geht zuerst um einen Politikwechsel – weg von den Diktaten der Troika und der brutalen Sparpolitik. Letztlich müssen die Menschen vor Ort entscheiden.",
+                "prio": 2
+            },
+            {
+                "partyId": "mp",
+                "party": "Männerpartei",
+                "text": "Das kann in Einzelfällen eine sinnvolle Lösung sein.",
+                "prio": 2
+            },
+            {
+                "partyId": "sga",
+                "party": "Monarchisten",
+                "text": "Das ist eine von vielen Experten befürwortete Option, die langfristig funktionieren könnte. Eine einheitliche Eurozone ist unhaltbar.",
+                "prio": 2
+            },
+            {
+                "partyId": "neos",
+                "party": "NEOS",
+                "text": "Nein. In einer Familie hält man zusammen, auch wenn es  eng wird. Wettbewerbsfähigkeit wird durch eigene Währung nur kurzfristig verbessert.",
+                "prio": 2
+            },
+            {
+                "partyId": "neue",
+                "party": "Die Neue Partei",
+                "text": "Euro soll bleiben und Krisenländer sollen selbst entscheiden ob sie im Euro bleiben wollen",
+                "prio": 1
+            },
+            {
+                "partyId": "pirat",
+                "party": "Piratenpartei",
+                "text": "Nein, stattdessen soll die EU zu einer Finanz- und Sozialunion zum Nutzen aller zusammenwachsen.",
+                "prio": 1
+            },
+            {
+                "partyId": "slp",
+                "party": "SLP",
+                "text": "Euro oder Schilling ändert nichts an der Vorherrschaft neoliberaler Politik. Gemeinsam in ganz Europa kämpfen wir gegen den kapitalistischen Wahnsinn",
+                "prio": 3
+            },
+            {
+                "partyId": "so",
+                "party": "Soziales Österreich",
+                "text": "Ist aus unserer Sicht nicht möglich! Allerdings Hilfe nicht als \"Bankenhilfe\" (kein ESM) sondern über Marshall Pläne",
+                "prio": 3
+            },
+            {
+                "partyId": "wandl",
+                "party": "Der Wandel",
+                "text": "Die Länder des Nordens zB Deutschland sollten faire Löhne zahlen, das wäre viel nachhaltiger.",
+                "prio": 2
+            }
+        ]
+    },
+    {
+        "questionText": "Gleichgeschlechtliche Partnerschaften sollen der Ehe gleich gestellt werden.",
+        "answers": [
+            {
+                "partyId": "cpo",
+                "party": "CPÖ",
+                "text": "Wer Ungleiches gleich behandelt, diskrimiert. Die traditionelle Familie ist als Garant stabiler Kindererziehung nachhaltig zu fördern. ",
+                "prio": 3
+            },
+            {
+                "partyId": "euaus",
+                "party": "EU Austrittspartei",
+                "text": "Das Thema würde sich gut für eine Volksabstimmung eignen.",
+                "prio": 1
+            },
+            {
+                "partyId": "kpo",
+                "party": "KPÖ",
+                "text": "Wir fordern die völlige rechtliche Gleichstellung gleichgeschlechtlicher PartnerInnenschaften. ",
+                "prio": 3
+            },
+            {
+                "partyId": "mp",
+                "party": "Männerpartei",
+                "text": "Wer Adoption von Kindern durch Homosexuelle will, sollte erklären, welche Rechte Kinder und natürliche Eltern bei der Adoption haben sollen.",
+                "prio": 2
+            },
+            {
+                "partyId": "sga",
+                "party": "Monarchisten",
+                "text": "Ja, was den Eintritt in  Mietverträge und das Erbrecht betrifft, nein, wenn es um Adoption geht.  Ein Kind braucht Vater und Mutter.",
+                "prio": 1
+            },
+            {
+                "partyId": "neos",
+                "party": "NEOS",
+                "text": "Ja.",
+                "prio": 2
+            },
+            {
+                "partyId": "neue",
+                "party": "Die Neue Partei",
+                "text": "Für eine sachliche Diskussion von der Sinnhaftigkeit dieses Themas",
+                "prio": 1
+            },
+            {
+                "partyId": "pirat",
+                "party": "Piratenpartei",
+                "text": "Ja. In allen Punkten.",
+                "prio": 2
+            },
+            {
+                "partyId": "slp",
+                "party": "SLP",
+                "text": "Jeder Mensch muss frei über die Wahl seiner Lebensgemeinschaft entscheiden können. Keine davon – auch nicht die Ehe – soll privilegiert sein.",
+                "prio": 3
+            },
+            {
+                "partyId": "so",
+                "party": "Soziales Österreich",
+                "text": "Ja!",
+                "prio": 2
+            },
+            {
+                "partyId": "wandl",
+                "party": "Der Wandel",
+                "text": "Natürlich. ",
+                "prio": 2
+            }
+        ]
+    },
+    {
+        "questionText": "Wie kann das Gesundheitssystem verändert werden?",
+        "answers": [
+            {
+                "partyId": "cpo",
+                "party": "CPÖ",
+                "text": "Bessere Förderung der Alten-  und Krankenpflege in der Familie, Stärkung der hausärztlichen Versorgung.",
+                "prio": 3
+            },
+            {
+                "partyId": "euaus",
+                "party": "EU Austrittspartei",
+                "text": "bessere Ernährung, mehr Sport, Umweltschutz, weniger Stress durch weniger Steuerbelastungen. Keine Gratisbehandlung von (EU-) Ausländern.",
+                "prio": 3
+            },
+            {
+                "partyId": "kpo",
+                "party": "KPÖ",
+                "text": "Das umlagefinanzierte Solidarsystem wird von uns vehement verteidigt. Die Arbeitsbedingungen müssen aber verbessert werden.",
+                "prio": 3
+            },
+            {
+                "partyId": "mp",
+                "party": "Männerpartei",
+                "text": "Jeder Erwachsene sollte seine Versicherung selbst zahlen. Reform der Aufgabenaufteilung zwischen Bund und Ländern.",
+                "prio": 2
+            },
+            {
+                "partyId": "sga",
+                "party": "Monarchisten",
+                "text": "Die Krankenkassen gehören zusammengelegt und mit den freiwerdenden Finanzmitteln die Kassenleistungen ausgebaut.",
+                "prio": 2
+            },
+            {
+                "partyId": "neos",
+                "party": "NEOS",
+                "text": "Entbürokratisierung, Treffsicherheit, Effizienz und Überprüfbarkeit sind Schlüsselbegriffe, um soziale Verantwortung leben zu können.",
+                "prio": 3
+            },
+            {
+                "partyId": "neue",
+                "party": "Die Neue Partei",
+                "text": "Keine Selbstbehalte für Geringverdiener.",
+                "prio": 3
+            },
+            {
+                "partyId": "pirat",
+                "party": "Piratenpartei",
+                "text": "Abbau unnötiger Doppelgleisigkeiten im Kassen- und Versicherungswesen, Ausbau der Pflege und der Behandlung psychischer Krankheiten.",
+                "prio": 1
+            },
+            {
+                "partyId": "slp",
+                "party": "SLP",
+                "text": "Durch massive öffentliche Investitionen und bessere Löhne und Arbeitsbedingungen für die KollegInnen im Sozialbereich.",
+                "prio": 3
+            },
+            {
+                "partyId": "so",
+                "party": "Soziales Österreich",
+                "text": "Nach Modell \"MutterKindpass\" Einführung eines \"Vorsorgepasses\" ab 18 Jahre und Förderung von gesunden Arbeitsplätzen,",
+                "prio": 3
+            },
+            {
+                "partyId": "wandl",
+                "party": "Der Wandel",
+                "text": "Krankenkassen sollten zusammengelegt werden. Ansonsten haben wir ein top Gesundheitssystem, das momentan nur kleine Optimierungen braucht",
+                "prio": 2
+            }
+        ]
+    },
+    {
+        "questionText": "Staatl. Pensionsansprüche der heutigen Jugend sinken stark. Was tun?",
+        "answers": [
+            {
+                "partyId": "cpo",
+                "party": "CPÖ",
+                "text": "Der Generationenvertrag kippt durch eine kinderfeindliche Politik. Außerdem fehlen die abgetriebenen Kinder im System. Das wirkt sich aus.",
+                "prio": 3
+            },
+            {
+                "partyId": "euaus",
+                "party": "EU Austrittspartei",
+                "text": "Korruption und Sauwirtschaft in der öffentlichen Verwaltung bekämpfen. Parteienfinanzierung gehört massiv gekürzt.",
+                "prio": 3
+            },
+            {
+                "partyId": "kpo",
+                "party": "KPÖ",
+                "text": "Die Rücknahme der falschen Pensionsreformen. Entgegen der Dauer-Propaganda private Pensionsversicherer sind die Pensionen finanzierbar.",
+                "prio": 2
+            },
+            {
+                "partyId": "mp",
+                "party": "Männerpartei",
+                "text": "Die Bevorzugung von Frauen im Pensionsystem schadet natürlich auch der Jugend. Daher: gleiches Rentenantrittsalter für Männer und Frauen. ",
+                "prio": 2
+            },
+            {
+                "partyId": "sga",
+                "party": "Monarchisten",
+                "text": "Richtung junge Generation umschichten. Es darf nicht auf Kosten der Jungen gelebt werden.",
+                "prio": 3
+            },
+            {
+                "partyId": "neos",
+                "party": "NEOS",
+                "text": "Wir brauchen einen neuen Generationenvertrag. Schluss mit Kopf in den Sand! Absetzbarkeit privater Vorsorge nach Schweizer Modell erhöhen.",
+                "prio": 3
+            },
+            {
+                "partyId": "neue",
+                "party": "Die Neue Partei",
+                "text": "Höhere Gehälter => höhere Pensionen",
+                "prio": 2
+            },
+            {
+                "partyId": "pirat",
+                "party": "Piratenpartei",
+                "text": "Angleichung des Pensionsantrittsalters (die Unterscheidung schadet den Frauen), Schaffung von Anreizen für möglichst lange Teilnahme am Erwerbsleben.",
+                "prio": 1
+            },
+            {
+                "partyId": "slp",
+                "party": "SLP",
+                "text": "Schluß mit privaten Pensionskassen, her mit ordentlichen und sicheren Jobs, Pensionen in ein staatliches Umlageverfahren und eine Mindestpension von 1700.-",
+                "prio": 3
+            },
+            {
+                "partyId": "so",
+                "party": "Soziales Österreich",
+                "text": "Der Weg hängt mit Reform des Gesundheitswesens mit längerem Verweilen am Arbeitsplatz in Gesundheit zusammen.",
+                "prio": 3
+            },
+            {
+                "partyId": "wandl",
+                "party": "Der Wandel",
+                "text": "Staatl. Pensionssystem stärken und private nicht mehr fördern.",
+                "prio": 2
+            }
+        ]
+    },
+    {
+        "questionText": "Die Außengrenzen der EU sollten durch starke Grenzüberwachung und Zuwanderungsbeschränkungen gesichert werden.",
+        "answers": [
+            {
+                "partyId": "cpo",
+                "party": "CPÖ",
+                "text": "Die Sorge um die Schwachen muss unsere Stärke sein - Asyl soll allen gewährt werden, die es wirklich brauchen; z:B.  verfolgten Christen.",
+                "prio": 2
+            },
+            {
+                "partyId": "euaus",
+                "party": "EU Austrittspartei",
+                "text": "Noch wichtiger ist die Wiedereinführung von Grenzkontrollen an der österr. Staatsgrenze. Massive Beschränkung der Zuwanderung nach Österr..",
+                "prio": 2
+            },
+            {
+                "partyId": "kpo",
+                "party": "KPÖ",
+                "text": "Wir treten für die Entmilitarisierung der EU-Grenzen und ein offenes Europa ein. ",
+                "prio": 3
+            },
+            {
+                "partyId": "mp",
+                "party": "Männerpartei",
+                "text": "gleiches Rentenantrittsalter für Männer und Frauen",
+                "prio": 3
+            },
+            {
+                "partyId": "sga",
+                "party": "Monarchisten",
+                "text": "Das ist  bereits Realität und aufgrund des Wohlstandsgefälles unvermeidbar.",
+                "prio": 2
+            },
+            {
+                "partyId": "neos",
+                "party": "NEOS",
+                "text": "Grenzüberwachung - ja, Zuwanderungsbeschränkungen, wie sie von Scharfmachern diskutiert werden - nein. Wir leben alle in einem Boot!",
+                "prio": 1
+            },
+            {
+                "partyId": "neue",
+                "party": "Die Neue Partei",
+                "text": "Für geordnete Zuwanderung nach kanadischem System",
+                "prio": 1
+            },
+            {
+                "partyId": "pirat",
+                "party": "Piratenpartei",
+                "text": "Die derzeitige EU-Grenzschutzpolitik ist menschenrechtswidrig. Politisch Verfolgte müssen Asyl bekommen; die Verfahrensdauern sind viel zu lang.",
+                "prio": 2
+            },
+            {
+                "partyId": "slp",
+                "party": "SLP",
+                "text": "Politik und Wirtschaft und nicht MigrantInnen sind schuld an Arbeitslosigkeit und Sozialabbau. Wir fordern gleiche Rechte für alle die hier leben!",
+                "prio": 2
+            },
+            {
+                "partyId": "so",
+                "party": "Soziales Österreich",
+                "text": "Ja",
+                "prio": 2
+            },
+            {
+                "partyId": "wandl",
+                "party": "Der Wandel",
+                "text": "Leider geht es momentan nicht anders. Grenzüberwachung darf aber nicht unmenschlich sein. ",
+                "prio": 2
+            }
+        ]
+    },
+    {
+        "questionText": "Welche Alternativen gibt es zur Wehrpflicht?",
+        "answers": [
+            {
+                "partyId": "cpo",
+                "party": "CPÖ",
+                "text": "Allgemeinde Wehrpflicht, Zivildienst und Neutralität sind zu erhalten. Österreich soll sich nicht an Auslandseinsätzen beteiligen.",
+                "prio": 2
+            },
+            {
+                "partyId": "euaus",
+                "party": "EU Austrittspartei",
+                "text": "Keine Wehrpflicht unter EU-Kommando. Keine österreichischen Berufssoldaten im Ausland. Keine EU-Soldaten in Österreich",
+                "prio": 2
+            },
+            {
+                "partyId": "kpo",
+                "party": "KPÖ",
+                "text": "Die Abschaffung des Bundesheers. Es gibt keine militärische Bedrohung, für Katastrophenschutz reicht ein Technischer Hilfsdienst.",
+                "prio": 3
+            },
+            {
+                "partyId": "mp",
+                "party": "Männerpartei",
+                "text": "Ende der \"Versorungsfunktion\" von Männern für ihre Frauen. ",
+                "prio": 2
+            },
+            {
+                "partyId": "sga",
+                "party": "Monarchisten",
+                "text": "Zivildienst und diverse Auslandsdienste. Wäre aber noch ausbaufähig, falls weitere NGOs als Dienstträger anerkannt werden.",
+                "prio": 2
+            },
+            {
+                "partyId": "neos",
+                "party": "NEOS",
+                "text": "Ein Berufsheer wäre die besser Option gewesen. Nach dem Volksentscheid geht es aber nun darum, das bestehende System zu reformieren.",
+                "prio": 1
+            },
+            {
+                "partyId": "neue",
+                "party": "Die Neue Partei",
+                "text": "Berufsheer und verstärkter Zivilschutz",
+                "prio": 2
+            },
+            {
+                "partyId": "pirat",
+                "party": "Piratenpartei",
+                "text": "Berufsheer – Wehrpflicht ist eine Freiheitseinschränkung, die nicht rechtfertigbar ist.",
+                "prio": 1
+            },
+            {
+                "partyId": "slp",
+                "party": "SLP",
+                "text": "Ordentliche Bezahlung für Zivil- und Wehrdienst und demokratische Rechte im Bundesheer wie die Wähl- und Abwählbarkeit von Vorgesetzten.",
+                "prio": 3
+            },
+            {
+                "partyId": "so",
+                "party": "Soziales Österreich",
+                "text": "Moderne Wehrpflicht mit neuen Aufgabenstellungen ist für den Zusammenhalt der Bevölkerung notwendig.",
+                "prio": 2
+            },
+            {
+                "partyId": "wandl",
+                "party": "Der Wandel",
+                "text": "Zum Beispiel gar kein Heer!",
+                "prio": 2
+            }
+        ]
+    },
+    {
+        "questionText": "Ein bedingungsloses Grundeinkommen...",
+        "answers": [
+            {
+                "partyId": "cpo",
+                "party": "CPÖ",
+                "text": "Leistung muss sich lohnen, aber wer nicht leistungsfähig ist, soll unterstützt werden. Familienarbeit soll voll als Beruf anerkannt werden.",
+                "prio": 2
+            },
+            {
+                "partyId": "euaus",
+                "party": "EU Austrittspartei",
+                "text": "Ein Grundeinkommen gibt es jetzt schon. Wichtig wäre es auch die Mehrwertsteuer auf Lebensmitteln zu streichen, dafür Flugbenzin besteuern.",
+                "prio": 1
+            },
+            {
+                "partyId": "kpo",
+                "party": "KPÖ",
+                "text": "Ein bedingungsloses, personenbezogenes Grundeinkommen in existenzsichernder Höhe soll breit und ernsthaft diskutiert werden.",
+                "prio": 2
+            },
+            {
+                "partyId": "mp",
+                "party": "Männerpartei",
+                "text": "gibt es de facto schon. Es wäre sinnvoller, wenn das transparent direkt am Finanzamt geregelt würde.",
+                "prio": 2
+            },
+            {
+                "partyId": "sga",
+                "party": "Monarchisten",
+                "text": "… ist diskutierenswert, aber nur EU-weit realistisch. Für einen einzelnen Staat beeinfusst es dessen Konkurrenzfähigkeit ansonsten negativ.",
+                "prio": 1
+            },
+            {
+                "partyId": "neos",
+                "party": "NEOS",
+                "text": "Wir stehen für eine Bürger_innengeld, das nicht bedingungslos ist, aber den Förderungsdschungel ersetzen würde.",
+                "prio": 2
+            },
+            {
+                "partyId": "neue",
+                "party": "Die Neue Partei",
+                "text": "Für eine sachliche Diskussion von der Sinnhaftigkeit des BGE",
+                "prio": 2
+            },
+            {
+                "partyId": "pirat",
+                "party": "Piratenpartei",
+                "text": "sollte möglichst bald eingeführt werden. Mit Studien und Modellversuchen sollte sofort begonnen werden.",
+                "prio": 3
+            },
+            {
+                "partyId": "slp",
+                "party": "SLP",
+                "text": "Das Recht auf einen Vollzeitjob, Mindestlohn sowie unbefristetes Mindestarbeitslosengelt/pension von 1700.- brutto ohne AMS-Schikanen",
+                "prio": 3
+            },
+            {
+                "partyId": "so",
+                "party": "Soziales Österreich",
+                "text": "Ja, in Schritte im Zusammenhang mit Punkt 33",
+                "prio": 3
+            },
+            {
+                "partyId": "wandl",
+                "party": "Der Wandel",
+                "text": "Darüber sollten wir nachdenken, aber auf unser jetziges System gestülpt wird es nicht funktionieren.",
+                "prio": 2
+            }
+        ]
+    },
+    {
+        "questionText": "Menschen mit höherem Einkommen/ Vermögen sollten auch mehr Steuern zahlen.",
+        "answers": [
+            {
+                "partyId": "cpo",
+                "party": "CPÖ",
+                "text": "Ja. Eine Flat-Tax ist unsozial und nimmt den Armen mehr als den Reichen. Wir forden außerdem ein Familiensplitting.",
+                "prio": 3
+            },
+            {
+                "partyId": "euaus",
+                "party": "EU Austrittspartei",
+                "text": "Ja. Allerdings sollte der Staat bei der Korruption und Parteienfinanzierungen zu sparen beginnen und keine neue Steuern einführen.",
+                "prio": 2
+            },
+            {
+                "partyId": "kpo",
+                "party": "KPÖ",
+                "text": "Wir stehen für Umverteilung von oben nach unten. Dazu gehören Steuern auf hohe Vermögen, aber auch auf Profite.",
+                "prio": 3
+            },
+            {
+                "partyId": "mp",
+                "party": "Männerpartei",
+                "text": "Das tun sie ja jetzt schon.",
+                "prio": 2
+            },
+            {
+                "partyId": "sga",
+                "party": "Monarchisten",
+                "text": "Wir sind für eine Flat-Tax.",
+                "prio": 1
+            },
+            {
+                "partyId": "neos",
+                "party": "NEOS",
+                "text": "Mehr Netto vom Brutto für alle Einkommen. Momentan trägt die Hauptlast aber der überproportional besteuerte Mittelstand. Entlastung!",
+                "prio": 2
+            },
+            {
+                "partyId": "neue",
+                "party": "Die Neue Partei",
+                "text": "Für Vermögenszuwachssteuern",
+                "prio": 2
+            },
+            {
+                "partyId": "pirat",
+                "party": "Piratenpartei",
+                "text": "Ja. Vor allem ist es nötig, Einkommen aus Arbeit zu entlasten – am besten durch (höhere/progressivere) Steuern auf Einkommen aus Vermögen.",
+                "prio": 3
+            },
+            {
+                "partyId": "slp",
+                "party": "SLP",
+                "text": "Armut ist kein Naturgesetz! Superreiche enteignen, statt Massenentlassungen. Weg mit der unsozialen Mehrwertssteuer, her mit der Reichensteuer!",
+                "prio": 3
+            },
+            {
+                "partyId": "so",
+                "party": "Soziales Österreich",
+                "text": "Selbstverständlich. 1/3 zu Gunsten Lohnnebenkosten, 1/3 Umbau der Volkswirtschaft auf Nachhaltigkeit und 1/3 zu Gunsten der Staatsschuld",
+                "prio": 3
+            },
+            {
+                "partyId": "wandl",
+                "party": "Der Wandel",
+                "text": "Natürlich, weil jedeR einen fairen Teil beitragen soll. Vor allem müssen Lohn- und Kapitaleinkommen endlich gleich besteuert werden.",
+                "prio": 2
+            }
+        ]
+    },
+    {
+        "questionText": "Umweltschutz heißt für uns...",
+        "answers": [
+            {
+                "partyId": "cpo",
+                "party": "CPÖ",
+                "text": "Den Schöpfer durch einen sorgsamen und nachhaltigen Umgang mit der Schöpfung zu ehren.",
+                "prio": 2
+            },
+            {
+                "partyId": "euaus",
+                "party": "EU Austrittspartei",
+                "text": "Raus aus EURATOM. Weniger Fluglärm durch EU-Austritt Österreichs. Strahlungsgrenzwerte für Mobilfunkstrahlung einführen.",
+                "prio": 3
+            },
+            {
+                "partyId": "kpo",
+                "party": "KPÖ",
+                "text": "Von Umweltschäden sind die sozial Schwachen stärker betroffen – global und in Österreich. Sozial und Ökologisch gehört für uns zusammen!",
+                "prio": 3
+            },
+            {
+                "partyId": "mp",
+                "party": "Männerpartei",
+                "text": "Schutz der natürlichen Vielfalt, also vor allem Naturschutz.",
+                "prio": 2
+            },
+            {
+                "partyId": "sga",
+                "party": "Monarchisten",
+                "text": "…in erster Linie Abkehr vom Dogma der Wachstumsökonomie.",
+                "prio": 3
+            },
+            {
+                "partyId": "neos",
+                "party": "NEOS",
+                "text": "Umdenken und Handeln statt Wegschauen und Stillstand. Systemlösungen statt Verbotskultur.",
+                "prio": 3
+            },
+            {
+                "partyId": "neue",
+                "party": "Die Neue Partei",
+                "text": "Abkehr von Wachstumsideologie, Reparaturgesellschaft.",
+                "prio": 2
+            },
+            {
+                "partyId": "pirat",
+                "party": "Piratenpartei",
+                "text": "die Bewahrung der Umwelt zum Nutzen aller Menschen und das Ermöglichen neuer Technologien, um schonender mit unseren Ressourcen umzugehen.",
+                "prio": 2
+            },
+            {
+                "partyId": "slp",
+                "party": "SLP",
+                "text": "ein sozialistisches Wirtschaftssystem, wo demokatische Planung zu einem umweltschonenden Ressourceneinsatz ohne Verlust der Lebensqualität führt.",
+                "prio": 3
+            },
+            {
+                "partyId": "so",
+                "party": "Soziales Österreich",
+                "text": "Ist im Zusammenhang mit der Umstellung auf \"QualitativesWachstum\" gesamtheitlich zu sehen.",
+                "prio": 3
+            },
+            {
+                "partyId": "wandl",
+                "party": "Der Wandel",
+                "text": "Umwelt in einem Maße benutzen in dem sie sich regenerieren kann. Der nächsten Generation eine lebenswerte Welt hinterlassen.",
+                "prio": 2
+            }
+        ]
+    },
+    {
+        "questionText": "Die Benutzung der Öffentlichen Verkehrsmittel sollte subventioniert/ gefördert werden.",
+        "answers": [
+            {
+                "partyId": "cpo",
+                "party": "CPÖ",
+                "text": "Ja, denn diese Transportmöglichkeit schont einerseits die Umwelt und dient auch den Minderverdienern,vor allem Pendler gehören entlastet.",
+                "prio": 2
+            },
+            {
+                "partyId": "euaus",
+                "party": "EU Austrittspartei",
+                "text": "Ja, öffentliche Verkehrsmittel werden auch jetzt schon massiv subventioniert und das ist gut so. Mehr Parkplätze für Pendler schaffen.",
+                "prio": 3
+            },
+            {
+                "partyId": "kpo",
+                "party": "KPÖ",
+                "text": "Die Öffis werden bereits zu 70 Prozent mit Steuergeldern finanziert. Freifahrt auf allen Öffis ist unsere ökologisch-soziale Antwort.",
+                "prio": 3
+            },
+            {
+                "partyId": "mp",
+                "party": "Männerpartei",
+                "text": "Das werden sie ja jetzt schon.",
+                "prio": 2
+            },
+            {
+                "partyId": "sga",
+                "party": "Monarchisten",
+                "text": "Ja, aber nicht indem man die Autobesitzer abzockt wie in Wien.",
+                "prio": 1
+            },
+            {
+                "partyId": "neos",
+                "party": "NEOS",
+                "text": "Ja, bis zur Herstellung echter Kostenwahrheit.",
+                "prio": 1
+            },
+            {
+                "partyId": "neue",
+                "party": "Die Neue Partei",
+                "text": "Förderung des öffentlichen Verkehrs, nicht jedoch Schikanierung der Autofahrer.",
+                "prio": 2
+            },
+            {
+                "partyId": "pirat",
+                "party": "Piratenpartei",
+                "text": "Ja. Wir fordern mittelfristig sogar fahrscheinlose Öffis, um zusätzliche Anreize zu schaffen.",
+                "prio": 3
+            },
+            {
+                "partyId": "slp",
+                "party": "SLP",
+                "text": "Nulltarif auf allen Öffentlichen Verkehrsmitteln bei gleichzeitigem Ausbau der Intervalle, Strecken und Leistungen. Das ist echter Umweltschutz!",
+                "prio": 3
+            },
+            {
+                "partyId": "so",
+                "party": "Soziales Österreich",
+                "text": "Ja.",
+                "prio": 3
+            },
+            {
+                "partyId": "wandl",
+                "party": "Der Wandel",
+                "text": "Ja, damit öffentlicher Verkehr attraktiver und auch leistbar wird.",
+                "prio": 2
             }
         ]
     }
