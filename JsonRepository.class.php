@@ -27,7 +27,17 @@ class JsonRepository {
         if (!file_exists($jsonFilePath)) {
             throw new Exception('file doesn\'t exist.');
         }
-        $collection = json_decode(file_get_contents($jsonFilePath));
+        if (!is_readable($jsonFilePath)) {
+            throw new Exception('file isn\'t readable.');
+        }
+        $fileContents = file_get_contents($jsonFilePath);
+        if ($fileContents === false) {
+            throw new Exception('cannot get file contents.');
+        }
+        if (!mb_check_encoding($fileContents, 'UTF-8')) {
+            throw new Exception('file contents is not UTF-8');
+        }
+        $collection = json_decode($fileContents);
         if ($collection === null) {
             throw new Exception('file cannot be decoded');
         }
