@@ -4,8 +4,6 @@ include_once('JsonRepository.class.php');
 
 function printContent() {
     try {
-        session_start();
-
         $step = 0;
         if (isset($_POST['step'])) {
             $step = intval($_POST['step']);
@@ -68,84 +66,106 @@ function printForm($repository, $step) {
 
 
 <form action="index.php" method="post">
-    <h2><?php echo 'Frage ' . ($step + 1) . '/' . $numberOfSteps . ': ' . $question->questionText; ?></h2>
+    <p class="text-droid text-10em black">
+        <!--<span class="text-bold text-10em black">Bildung</span><br />-->
+        <span class="text-bold text-20em black"><?php echo $question->questionText; ?></span>
+    </p>
 
-    <ul>
+    <table class="wahlcheck">
         <?php foreach ($question->answers as $answer) { ?>
-        <li>
-            <span><?php echo $answer->text; ?></span>
-            <label for="q-<?php echo $step; ?>_<?php echo $answer->partyId; ?>_like">like</label>
-            <input
-                id="q-<?php echo $step; ?>_<?php echo $answer->partyId; ?>_like"
-                name="q-<?php echo $step; ?>_<?php echo $answer->partyId; ?>"
-                type="radio"
-                value="like"
-                <?php
-                    $name = 'q-' . $step . '_' . $answer->partyId;
-                    if (isset($_SESSION[$name]) && $_SESSION[$name] === 'like') {
+        <tr>
+            <td class="60%"><?php echo $answer->text; ?></td>
+            <td class="20%" id="skin_4">
+                <input
+                    id="q-<?php echo $step; ?>_<?php echo $answer->partyId; ?>_like"
+                    name="q-<?php echo $step; ?>_<?php echo $answer->partyId; ?>"
+                    type="radio"
+                    value="like"
+                    <?php
+                        $name = 'q-' . $step . '_' . $answer->partyId;
+                        if (isset($_SESSION[$name]) && $_SESSION[$name] === 'like') {
+                            echo 'checked="checked"';
+                        }
+                    ?>
+                    required="required" />
+            </td>
+            <td class="20%" id="skin_6">
+                <input
+                    id="q-<?php echo $step; ?>_<?php echo $answer->partyId; ?>_unlike"
+                    name="q-<?php echo $step; ?>_<?php echo $answer->partyId; ?>"
+                    type="radio"
+                    value="unlike"
+                    <?php
+                    if (isset($_SESSION[$name]) && $_SESSION[$name] === 'unlike') {
                         echo 'checked="checked"';
                     }
-                ?>
-                required="required" />
-            <label for="q-<?php echo $step; ?>_<?php echo $answer->partyId; ?>_unlike">unlike</label>
-            <input
-                id="q-<?php echo $step; ?>_<?php echo $answer->partyId; ?>_unlike"
-                name="q-<?php echo $step; ?>_<?php echo $answer->partyId; ?>"
-                type="radio"
-                value="unlike"
-                <?php
-                if (isset($_SESSION[$name]) && $_SESSION[$name] === 'unlike') {
-                    echo 'checked="checked"';
-                }
-                unset($name);
-                ?>
-                required="required" />
-        </li>
+                    unset($name);
+                    ?>
+                    required="required" />
+            </td>
+        </tr>
         <?php } ?>
+    </table>
 
-        <li>
-            <span>Priorität:</span>
-            <label for="q-<?php echo $step; ?>_priority_low">Tief</label>
-            <input
-                id="q-<?php echo $step; ?>_priority_low"
-                name="q-<?php echo $step; ?>_priority"
-                type="radio"
-                value="low"
-                <?php
-                $name = 'q-' . $step . '_priority';
-                if (isset($_SESSION[$name]) && $_SESSION[$name] === 'low') {
-                    echo 'checked="checked"';
-                }
-                ?>
-                required="required" />
-            <label for="q-<?php echo $step; ?>_priority_medium">Mittel</label>
-            <input
-                id="q-<?php echo $step; ?>_priority_medium"
-                name="q-<?php echo $step; ?>_priority"
-                type="radio"
-                value="medium"
-                <?php
-                if ((isset($_SESSION[$name]) && $_SESSION[$name] === 'medium') || !isset($_SESSION[$name])) {
-                    echo 'checked="checked"';
-                }
-                ?>
-                required="required" />
-            <label for="q-<?php echo $step; ?>_priority_high">Hoch</label>
-            <input
-                id="q-<?php echo $step; ?>_priority_high"
-                name="q-<?php echo $step; ?>_priority"
-                type="radio"
-                value="high"
-                <?php
-                if (isset($_SESSION[$name]) && $_SESSION[$name] === 'high') {
-                    echo 'checked="checked"';
-                }
-                ?>
-                required="required" />
-        </li>
-    </ul>
+    <div class="wahlumfragen-menu-subsub">
+        <table class="wahlcheck-prio">
+            <tr>
+                <td width="25%"></td>
+                <td width="25%" id="skin_7">
+                    <input
+                        id="q-<?php echo $step; ?>_priority_low"
+                        name="q-<?php echo $step; ?>_priority"
+                        type="radio"
+                        value="low"
+                        <?php
+                        $name = 'q-' . $step . '_priority';
+                        if (isset($_SESSION[$name]) && $_SESSION[$name] === 'low') {
+                            echo 'checked="checked"';
+                        }
+                        ?>
+                        required="required" />
+                </td>
+                <td width="25%" id="skin_8">
+                    <input
+                        id="q-<?php echo $step; ?>_priority_medium"
+                        name="q-<?php echo $step; ?>_priority"
+                        type="radio"
+                        value="medium"
+                        <?php
+                        if ((isset($_SESSION[$name]) && $_SESSION[$name] === 'medium') || !isset($_SESSION[$name])) {
+                            echo 'checked="checked"';
+                        }
+                        ?>
+                        required="required" />
+                </td>
+                <td width="25%" id="skin_9">
+                    <input
+                        id="q-<?php echo $step; ?>_priority_high"
+                        name="q-<?php echo $step; ?>_priority"
+                        type="radio"
+                        value="high"
+                        <?php
+                        if (isset($_SESSION[$name]) && $_SESSION[$name] === 'high') {
+                            echo 'checked="checked"';
+                        }
+                        ?>
+                        required="required" />
+                </td>
+            </tr>
+            <tr>
+                <td width="25%" class="white">Dieses Thema ist mir...</td>
+                <td class="white"><label for="q-<?php echo $step; ?>_priority_low">Tief</label></td>
+                <td class="white"><label for="q-<?php echo $step; ?>_priority_medium">Mittel</label></td>
+                <td class="white"><label for="q-<?php echo $step; ?>_priority_high">Hoch</label></td>
+            </tr>
+        </table>
+    </div>
 
     <input id="step" name="step" type="hidden" value="<?php echo $step + 1; ?>" />
+
+    <div class="wahlumfragen-menu-subsub">
+        <p class="text-droid white text-decoration-none text-18em text-center"><a href="#" onClick="submit();" class="text-droid text-20em white text-decoration-none">zur nächsten Frage</a></p>
+    </div>
 
     <input id="submit" name="submit" type="submit" value="submit" />
 

@@ -1,0 +1,380 @@
+
+.wahlumfragen-box {
+	padding: 20px 20px 20px 20px;
+	background: #efefef;
+	color:	black;
+	text-align: justify;
+
+	font-family:"Bitter", arial, sans-serif;
+}
+
+.wahlumfragen-menu-sub {
+	padding: 20px 20px 20px 20px;
+	background: #efefef;
+}
+
+
+.wahlumfragen-menu-subsub {
+	padding: 20px 20px 20px 20px;
+	background: #999999;
+}
+
+
+.wahlumfragen-menu {
+	padding: 20px 20px 20px 20px;
+	background: #333333;
+}
+
+.wahlumfragen-menu-text  {
+	color:	white;
+	font-size: 0.8em; 
+	line-height: 1.2em;
+	font-weight:normal;
+	text-align: center;
+	font-family:"Droid Sans", arial, sans-serif;
+	text-decoration: none;
+}
+
+.wahlumfragen-menu-sub-text a {
+	color:	black;
+	font-weight:bold;
+	text-decoration: none;
+	font-size: 0.8em;
+}
+
+.wahlumfragen-menu-sub-text  {
+	color:	black;
+	font-size: 0.8em; 
+	line-height: 1.2em;
+	font-weight:normal;
+	text-align: center;
+	font-family:"Droid Sans", arial, sans-serif;
+	text-decoration: none;
+}
+
+.wahlumfragen-menu-text a {
+	color:	white;
+	font-weight:bold;
+	text-decoration: none;
+	font-size: 1.0em;
+}
+
+
+
+
+.wahlumfragen-box img {
+	padding-right: 20px;
+	
+}
+
+.wahlumfragen-box a {
+	
+}
+
+
+.wahlumfragen-header {
+	padding-top: 20px;
+	color:	black;
+	text-align: left;
+	font-size: 1.2em; 
+	line-height: 2em;
+	font-weight:bold;
+	text-transform:none;
+	font-family:"Droid Sans", arial, sans-serif;	
+
+	margin-top: 60px;
+	margin-bottom: 60px;
+}
+
+.wahlumfragen-buch {
+	background: #efefef;
+	color:	black;
+	text-align: left;
+	font-size: 1.4em; 
+	line-height: 1.6em;
+	font-weight:normal;
+	text-transform:none;
+	padding-top: 20px;
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-bottom: 20px;
+	margin-top: 60px;
+	margin-bottom: 60px;}
+
+.wahlumfragen-buch em {
+}
+
+.wahlumfragen-buch strong {
+}
+
+
+
+
+.wahlumfragen-buch img {
+	padding-right: 20px;
+	padding-top: 20px;
+}
+
+
+
+.wahlumfragen-buchautor {
+	color:	black;
+	text-align: left;
+	font-size: 1.2em; 
+	line-height: 1.6em;
+	font-weight:normal;
+	text-transform:none;
+	font-family:"Bitter", arial, sans-serif;
+}
+.wahlumfragen-titel {
+	color:	black;
+	text-align: left;
+	font-size: 1.4em; 
+	line-height: 2em;
+	font-weight:strong;
+	text-transform:none;
+	font-family:"Droid Sans", arial, sans-serif;
+
+}
+.wahlumfragen-subtitel {
+	color:	black;
+	text-align: left;
+	font-size: 1.2em; 
+	line-height: 1.6em;
+	font-weight:normal;
+	text-transform:none;
+	font-family:"Bitter", arial, sans-serif;
+}
+.wahlumfragen-text {
+	color:	black;
+	text-align: justify;
+	font-size: 1.2em; 
+	line-height: 1.6em;
+	font-weight:normal;
+	text-transform:none;
+	font-family:"Droid Sans", arial, sans-serif;
+}
+
+.wahlumfrage-overview-header {
+	color:	black;
+	text-align: center;
+	font-size: 0.6em; 
+	line-height: 1.6em;
+	font-weight:normal;
+	text-transform:none;
+	font-family:"Droid Sans", arial, sans-serif;
+}
+
+.bg-efefef {
+	background: #efefef;
+}
+
+
+table.umfragedetails {
+       width: 100%;
+       border-collapse: collapse;
+	color:	black;
+	text-align: justify;
+	font-size: 0.95em; 
+	line-height: 1.2em;
+	font-weight:normal;
+	text-transform:none;
+	font-family:"Droid Sans", arial, sans-serif;
+        }
+
+table.wahlumfrage-overview {
+       width: 100%;
+       border-collapse: collapse;
+	color:	black;
+	text-align: center;
+/**	font-size: 0.95em; */
+	font-size: 1.5em; 
+
+	line-height: 2em;
+	font-weight:normal;
+	text-transform:none;
+	font-family:"Droid Sans", arial, sans-serif;
+        }
+
+
+
+table.wahlcheck {
+     width: 100%;
+       border-collapse: collapse;
+	text-align: left;
+	font-size: 1.1em; 
+	line-height: 1.1em;
+	font-weight:normal;
+	text-transform:none;
+	font-family:"Droid Sans", arial, sans-serif;
+}
+
+table.wahlcheck-slider {
+     width: 100%;
+       border-collapse: collapse;
+	text-align: center;
+	font-size: 0.7em; 
+	line-height: 0.7em;
+	font-weight:normal;
+	text-transform:none;
+	font-family:"Droid Sans", arial, sans-serif;
+}
+
+
+table.wahlcheck-prio {
+     width: 100%;
+       border-collapse: collapse;
+	text-align: center;
+	font-size: 0.8em; 
+	line-height: 0.8em;
+	font-weight:normal;
+	text-transform:none;
+	font-family:"Droid Sans", arial, sans-serif;
+}
+
+
+
+/* Zebra striping */
+
+        table.wahlcheck tr:nth-of-type(odd) {
+                background: #eee;
+        }
+        table.wahlcheck th {
+                background: #333;
+                color: white;
+                font-weight: bold;
+        }
+        table.wahlcheck td, table.wahlcheck th {
+                padding: 6px;
+                /**border: 1px solid #ccc;*/
+                text-align: left;
+        }
+
+
+
+
+table.wahlumfrage-general-overview {
+       width: 100%;
+       border-collapse: collapse;
+/**	text-align: center;
+	font-size: 0.95em; 
+	line-height: 2em;*//
+	font-weight:normal;
+	text-transform:none;
+	font-family:"Droid Sans", arial, sans-serif;
+        }
+
+.header-logo {
+	text-align: center;
+}
+
+
+table.publizierungen {
+       width: 100%;
+       border-collapse: collapse;
+	color:	black;
+	text-align: justify;
+	font-size: 0.95em; 
+	line-height: 1.2em;
+	font-weight:normal;
+	text-transform:none;
+	font-family:"Droid Sans", arial, sans-serif;
+        }
+
+
+
+
+/***
+** PUBLIZIERUNGEN *
+**/
+
+
+/*
+Generic Styling, for Desktops/Laptops
+*/
+table.publizierungen {
+       width: 100%;
+       border-collapse: collapse;
+	color:	black;
+	text-align: left;
+	font-size: 0.95em; 
+	font-weight:normal;
+	text-transform:none;
+	font-family:"Droid Sans", arial, sans-serif;
+	line-height: 1.4em;
+	padding: 5px;
+
+/**
+        width: 100%;
+        border-collapse: collapse;
+	text-align: left;
+	font-size: 1.25em;
+	line-height: 1.4em;
+	padding: 5px;
+
+	font-family:"Bitter", arial, sans-serif;
+*/
+        }
+       
+ 
+
+ 
+ 
+       
+        /*
+        Max width before this PARTICULAR table gets nasty
+        This query will take effect for any screen smaller than 760px
+        and also iPads specifically.
+        */
+	@media 
+	only screen and (max-width: 760px),
+	(min-device-width: 768px) and (max-device-width: 1024px)  { 
+       
+                /* Force table to not be like tables anymore */
+                table.publizierungen table, table.publizierungen thead, table.publizierungen tbody, table.publizierungen th, table.publizierungen td, table.publizierungen tr {
+                        display: block;
+                }
+               
+                /* Hide table headers (but not display: none;, for accessibility) */
+                table.publizierungen thead tr {
+                        position: absolute;
+                        top: -9999px;
+                        left: -9999px;
+                }
+               
+                table.publizierungen tr { border: 1px solid #ccc; }
+               
+                table.publizierungen td {
+                        /* Behave  like a "row" */
+                        border: none;
+                        border-bottom: 1px solid #eee;
+                        position: relative;
+                        padding-left: 50%;
+                }
+               
+                table.publizierungen td:before {
+                        /* Now like a table header */
+                        position: absolute;
+                        /* Top/left values mimic padding */
+                        top: 6px;
+                        left: 6px;
+                        width: 45%;
+                        padding-right: 10px;
+                        white-space: nowrap;
+                }
+               
+                /*
+                Label the data
+                */
+                table.publizierungen td:nth-of-type(1):before { content: "Institut"; }
+                table.publizierungen td:nth-of-type(2):before { content: "Medium"; }
+                table.publizierungen td:nth-of-type(3):before { content: "Kommende"; }
+                table.publizierungen td:nth-of-type(4):before { content: "Aktuell"; }
+                table.publizierungen td:nth-of-type(5):before { content: "Rhythmus"; }
+  
+        }
+       
+ 
+
+
+

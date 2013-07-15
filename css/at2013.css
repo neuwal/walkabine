@@ -1,0 +1,477 @@
+/*  
+neuwal.com
+-----
+PARTEIEN AT
+-----
+*/
+
+
+.spo {
+	color: #FF0000;
+}
+.spo-front {
+	color: #FFFFFF;
+}
+.spo-bg {
+	background: #FF0000;
+}
+
+.ovp {
+	color: #08112E;
+}
+.ovp-front {
+	color: #FFFFFF;
+}
+.ovp-bg {
+	background: #08112E;
+}
+
+.fpo {
+	color: #0E428E;
+}
+.fpo-front {
+	color: #FFFFFF;
+}
+.fpo-bg {
+	background: #0E428E;
+}
+
+
+.bzo {
+	color: #F89201;
+}
+.bzo-front {
+	color: #000000;
+}
+.bzo-bg {
+	background: #F89201;
+}
+
+
+.gru {
+	color: #24B522;
+}
+.gru-front {
+	color: #FFFFFF;
+}
+.gru-bg {
+	background: #24B522;
+}
+
+
+.pir {
+	color: #990099;
+}
+.pir-front {
+	color: #FFFFFF;
+}
+.pir-bg {
+	background: #990099;
+}
+
+
+.ts {
+	color: #edf014;
+}
+.ts-front {
+	color: #000000;
+}
+.ts-bg {
+	background: #edf014;
+}
+
+
+.neo {
+	color: #e3257b;
+}
+.neo-front {
+	color: #FFFFFF;
+}
+.neo-bg {
+	background: #e3257b;
+}
+
+
+.lif {
+	color: #ff3;
+}
+.lif-front {
+	color: #039;
+}
+.lif-bg {
+	background: #ff3;
+}
+
+
+.fri {
+	color: #993366;
+}
+.fri-front {
+	color: #FFFFFF;
+}
+.fri-bg {
+	background: #993366;
+}
+
+
+.kpo {
+	color: #990000;
+}
+.kpo-front {
+	color: #FFFFFF;
+}
+.kpo-bg {
+	background: #990000;
+}
+
+
+.dc {
+	color: #ffcb08;
+}
+.dc-front {
+	color: #000000;
+}
+.dc-bg {
+	background: #ffcb08;
+}
+
+.and {
+	color: #333333;
+}
+.and-front {
+	color: #FFFFFF;
+}
+.and-bg {
+	background: #333333;
+}
+
+
+
+.wan {
+	color: #000000;
+}
+.wan-front {
+	color: #000000;
+}
+.wan-bg {
+	background: #ffffff;
+}
+
+.neu {
+	color: #01dddd;
+}
+.neu-front {
+	color: #FFFFFF;
+}
+.neu-bg {
+	background: #01dddd;
+}
+
+.eua {
+	color: #da1b3a;
+}
+.eua-front {
+	color: #FFFFFF;
+}
+.eua-bg {
+	background: #da1b3a;
+}
+
+
+.map {
+	color: #ffff00;
+}
+.map -front {
+	color: #000000;
+}
+.map -bg {
+	background: #ffff00;
+}
+
+
+.oen {
+	color: #000000;
+}
+.oen-front {
+	color: #000000;
+}
+.oen-bg {
+	background: #efefef;
+}
+
+
+
+.soz {
+	color: #c20000;
+}
+.soz-front {
+	color: #ffffff;
+}
+.soz-bg {
+	background: #c20000;
+}
+
+
+
+
+
+
+
+
+
+.white {
+	color: #ffffff;
+}
+
+.green {
+	color: #00cc00;
+}
+.red {
+	color: #cc0000;
+}
+.black {
+	color: #000000;
+}
+
+.bg-efefef {
+	background: #efefef;
+}
+.bg-333333 {
+	background: #333333;
+}
+.bg-666666{
+	background: #666666;
+}
+
+
+
+
+.neuwal-grey {
+	color: #555;
+}
+
+.text-m {
+	font-size: 18px;
+
+}
+.text-align {
+	text-align: center;
+}
+.text-center {
+	text-align: center;
+}
+.text-bold {
+	font-weight:bold;
+}
+.padding-10 {
+	padding: 5px;
+}
+
+
+.text-bitter {
+	font-family:"Bitter", arial, sans-serif;	
+}
+
+.text-droid {
+	font-family:"Droid Sans", arial, sans-serif;	
+}
+
+
+.text-decoration-none {
+	text-decoration: none;
+}
+
+.text-26em {
+	font-size: 2.6em;
+}
+.text-25em {
+	font-size: 2.5em;
+}
+.text-24em {
+	font-size: 2.4em;
+}
+.text-23em {
+	font-size: 2.3em;
+}
+.text-22em {
+	font-size: 2.2em;
+}
+.text-21em {
+	font-size: 2.1em;
+}
+.text-20em {
+	font-size: 2.0em;
+}
+.text-19em {
+	font-size: 1.9em;
+}
+
+
+.text-18em {
+	font-size: 1.8em;
+
+}
+.text-17em {
+	font-size: 1.7em;
+
+}
+.text-16em {
+	font-size: 1.6em;
+
+}
+.text-15em {
+	font-size: 1.5em;
+
+}
+.text-14em {
+	font-size: 1.4em;
+
+}
+.text-13em {
+	font-size: 1.3em;
+
+}
+.text-12em {
+	font-size: 1.2em;
+
+}
+.text-11em {
+	font-size: 1.1em;
+}
+.text-10em {
+	font-size: 1.0em;
+}
+
+.text-9em {
+	font-size: 0.9em;
+}
+
+.text-8em {
+	font-size: 0.8em;
+}
+
+.text-7em {
+	font-size: 0.7em;
+}
+
+.text-6em {
+	font-size: 0.6em;
+}
+
+.text-5em {
+	font-size: 0.5em;
+}
+
+.text-4em {
+	font-size: 0.4em;
+}
+.text-3em {
+	font-size: 0.3em;
+}
+
+.text-2em {
+	font-size: 0.2em;
+}
+
+.text-1em {
+	font-size: 0.1em;
+}
+
+
+
+
+
+.text-line-height-18em {
+	line-height: 1.8em;
+
+}
+.text-line-height-17em {
+	line-height: 1.7em;
+
+}
+.text-line-height-16em {
+	line-height: 1.6em;
+
+}
+.text-line-height-15em {
+	line-height: 1.5em;
+
+}
+.text-line-height-14em {
+	line-height: 1.4em;
+
+}
+.text-line-height-13em {
+	line-height: 1.3em;
+
+}
+.text-line-height-12em {
+	line-height: 1.2em;
+
+}
+.text-line-height-11em {
+	line-height: 1.1em;
+}
+.text-line-height-10em {
+	line-height: 1.0em;
+}
+
+.text-line-height-9em {
+	line-height: 0.9em;
+}
+
+.text-line-height-8em {
+	line-height: 0.8em;
+}
+
+.text-line-height-7em {
+	line-height: 0.7em;
+}
+
+.text-line-height-6em {
+	line-height: 0.6em;
+}
+
+.text-line-height-5em {
+	line-height: 0.5em;
+}
+.text-line-height-4em {
+	line-height: 0.4em;
+}
+.text-3em {
+	line-height: 0.3em;
+}
+
+.text-2em {
+	line-height: 0.2em;
+}
+
+.text-1em {
+	line-height: 0.1em;
+}
+
+
+
+
+
+
+a {position:relative;
+}
+span.tt {
+    display:none;
+}
+a:hover span.tt {
+    display:block;
+    position:absolute;
+    background-color:#fff;
+    color:#000;
+    border:1px solid #363;
+    margin:0;
+    top: 30px;
+    left: 30px ;
+	font-family:"Droid Sans", arial, sans-serif;	
+font-size: 1.0em;
+}
+
+
+

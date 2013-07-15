@@ -1,0 +1,154 @@
+a.radio-fx span, a.radio-fx {
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+#skin_1 .radio, #skin_1 .radio-checked, #skin_1 a.radio-fx {
+    width: 50px;
+    height: 50px;
+}
+#skin_2 .radio, #skin_2 .radio-checked, #skin_2 a.radio-fx {
+    width: 50px;
+    height: 50px;
+}
+#skin_3 .radio, #skin_3 .radio-checked, #skin_3 a.radio-fx {
+    width: 50px;
+    height: 50px;
+}
+
+
+#skin_4 .radio, #skin_4 .radio-checked, #skin_4 a.radio-fx {
+    width: 50px;
+    height: 50px;
+}
+#skin_5 .radio, #skin_5 .radio-checked, #skin_5 a.radio-fx {
+    width: 50px;
+    height: 50px;
+}
+#skin_6 .radio, #skin_6 .radio-checked, #skin_6 a.radio-fx {
+    width: 50px;
+    height: 50px;
+}
+
+
+#skin_7 .radio, #skin_7 .radio-checked, #skin_7 a.radio-fx {
+    width: 25px;
+    height: 25px;
+}
+#skin_8 .radio, #skin_8 .radio-checked, #skin_8 a.radio-fx {
+    width: 50px;
+    height: 25px;
+}
+#skin_9 .radio, #skin_9 .radio-checked, #skin_9 a.radio-fx {
+    width: 75px;
+    height: 25px;
+}
+
+
+
+#skin_10 .radio, #skin_10 .radio-checked, #skin_10 a.radio-fx {
+    width: 20px;
+    height: 20px;
+}
+#skin_11 .radio, #skin_11 .radio-checked, #skin_11 a.radio-fx {
+    width: 20px;
+    height: 20px;
+}
+#skin_12 .radio, #skin_12 .radio-checked, #skin_12 a.radio-fx {
+    width: 20px;
+    height: 20px;
+}
+#skin_13 .radio, #skin_13 .radio-checked, #skin_13 a.radio-fx {
+    width: 25px;
+    height: 25px;
+}
+
+
+#skin_1 .radio {
+    background: url(http://neuwal.com/wahlcheck/images/top_0.png) no-repeat;
+}
+#skin_1 .radio-checked {
+    background: url(http://neuwal.com/wahlcheck/images/top_11.png) no-repeat;
+}
+#skin_2 .radio {
+    background: url(http://neuwal.com/wahlcheck/images/down_0.png) no-repeat;
+}
+#skin_2 .radio-checked {
+    background: url(http://neuwal.com/wahlcheck/images/down_11.png) no-repeat;
+}
+#skin_3 .radio {
+    background: url(http://neuwal.com/wahlcheck/images/middle_0.png) no-repeat;
+}
+#skin_3 .radio-checked {
+    background: url(http://neuwal.com/wahlcheck/images/middle_1.png) no-repeat;
+}
+
+
+#skin_4 .radio {
+    background: url(http://neuwal.com/wahlcheck/images/thumb-down_00.png) no-repeat;
+}
+#skin_4 .radio-checked {
+    background: url(http://neuwal.com/wahlcheck/images/thumb-down_11.png) no-repeat;
+}
+#skin_5 .radio {
+    background: url(http://neuwal.com/wahlcheck/images/thumb-middle_00.png) no-repeat;
+}
+#skin_5 .radio-checked {
+    background: url(http://neuwal.com/wahlcheck/images/thumb-middle_11.png) no-repeat;
+}
+#skin_6 .radio {
+    background: url(http://neuwal.com/wahlcheck/images/thumb-up_00.png) no-repeat;
+}
+#skin_6 .radio-checked {
+    background: url(http://neuwal.com/wahlcheck/images/thumb-up_11.png) no-repeat;
+}
+
+
+#skin_7 .radio {
+    background: url(http://neuwal.com/wahlcheck/images/star_1_00.png) no-repeat;
+}
+#skin_7 .radio-checked {
+    background: url(http://neuwal.com/wahlcheck/images/star_1_11.png) no-repeat;
+}
+#skin_8 .radio {
+    background: url(http://neuwal.com/wahlcheck/images/star_2_00.png) no-repeat;
+}
+#skin_8 .radio-checked {
+    background: url(http://neuwal.com/wahlcheck/images/star_2_11.png) no-repeat;
+}
+#skin_9 .radio {
+    background: url(http://neuwal.com/wahlcheck/images/star_3_00.png) no-repeat;
+}
+#skin_9 .radio-checked {
+    background: url(http://neuwal.com/wahlcheck/images/star_3_11.png) no-repeat;
+}
+
+
+
+#skin_10 .radio {
+    background: url(http://neuwal.com/wahlcheck/images/1_0.png) no-repeat;
+}
+#skin_10 .radio-checked {
+    background: url(http://neuwal.com/wahlcheck/images/1_1.png) no-repeat;
+}
+#skin_11 .radio {
+    background: url(http://neuwal.com/wahlcheck/images/2_0.png) no-repeat;
+}
+#skin_11 .radio-checked {
+    background: url(http://neuwal.com/wahlcheck/images/2_1.png) no-repeat;
+}
+#skin_12 .radio {
+    background: url(http://neuwal.com/wahlcheck/images/3_0.png) no-repeat;
+}
+#skin_12 .radio-checked {
+    background: url(http://neuwal.com/wahlcheck/images/3_1.png) no-repeat;
+}
+#skin_13 .radio {
+    background: url(http://neuwal.com/wahlcheck/images/hackchen_0.png) no-repeat;
+}
+#skin_13 .radio-checked {
+    background: url(http://neuwal.com/wahlcheck/images/hackchen_1.png) no-repeat;
+}
+
+
